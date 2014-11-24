@@ -1,14 +1,12 @@
-wearhackswebsite
-================
-
-WearHacks webiste
+Website for WearHacks Toronto 2015
+===============
 
 *How to Run*
 
 * sudo npm install
-* node index.js
+* node tor_index.js
 
 *How to run during development (restart server on file change)*
 
 * sudo npm install
-* nodemon index.js
+* nodemon tor_index.js
