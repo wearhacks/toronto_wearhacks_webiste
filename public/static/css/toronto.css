@@ -1250,6 +1250,12 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   font-size: 15px;
   margin-top: 10px;
 }
+.header-9-sub {
+  padding-top: 0px;
+}
+.header-9-sub > .container {
+  padding-top: 100px;
+}
 /**
  * Header 10 stylesheet  
  * */
@@ -1260,9 +1266,6 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   padding-bottom: 0;
   height: 80px;
   color: #ffffff;
-}
-.header-10 .header-background {
-  background: #1b1f23;
 }
 .header-10 .navbar {
   position: absolute;
@@ -1491,4 +1494,19 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   .header-10-sub .control-btn {
     bottom: 30px;
   }
+}
+.header-9-sub .signup-form form {
+  margin: 0 auto;
+  padding: 17px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background: white;
+}
+.header-9-sub .signup-form form .form-control {
+  width: 70.0%;
+  float: left;
+}
+.header-9-sub .signup-form form button {
+  width: 28%;
 }
