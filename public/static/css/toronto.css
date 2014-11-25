@@ -1495,6 +1495,34 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
     bottom: 30px;
   }
 }
+.header-9-sub p {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.loaded .header-9-sub p {
+  -webkit-transition: 1.2s opacity;
+  -moz-transition: 1.2s opacity;
+  -o-transition: 1.2s opacity;
+  transition: 1.2s opacity;
+  opacity: 100;
+  filter: alpha(opacity=10000);
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.header-9-sub .signup-form {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.loaded .header-9-sub .signup-form {
+  -webkit-transition: 1.5s opacity;
+  -moz-transition: 1.5s opacity;
+  -o-transition: 1.5s opacity;
+  transition: 1.5s opacity;
+  opacity: 100;
+  filter: alpha(opacity=10000);
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
 .header-9-sub .signup-form form {
   margin: 0 auto;
   padding: 17px;
